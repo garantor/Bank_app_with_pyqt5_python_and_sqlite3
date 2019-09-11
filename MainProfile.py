@@ -7,6 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QMessageBox
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -98,6 +99,62 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        #######################################
+        #connecting Butttons to the profile functions
+        ###############################################
+
+        self.pushButton_balance.clicked.connect(self.CheckBal)
+        self.pushButton_transfer.clicked.connect(self.Transfer)
+        self.pushButton_deposit.clicked.connect(self.Deposit)
+        self.pushButton_withdrawal.clicked.connect(self.Withdrawal)
+        self.pushButton_checkAll.clicked.connect(self.CheckAll)
+        self.pushButton_referrals.clicked.connect(self.SeeRefferals)
+        self.pushButton_editprofile.clicked.connect(self.EditProfile)
+        self.pushButton_deleteAccount.clicked.connect(self.DeleteAcc)
+        self.pushButton_logout.clicked.connect(self.Logout)
+
+# Pop Messages
+    def MessagesProfile(self, title, message):
+        mssg = QMessageBox()
+        mssg.setWindowTitle(title)
+        mssg.setIcon(QMessageBox.Warning)
+        mssg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        mssg.setText(message)
+        mssg.buttonClicked.connect(self.buttonClickeed)
+        mssg.exec_()
+
+    def buttonClickeed(self, me):
+        if me.text() == QMessageBox.Ok:
+            print('quite')
+            quit()
+
+    def Logout(self):
+        self.MessagesProfile('Quit', 'Will you like o quit?')
+
+    def DeleteAcc(self):
+        print('DeleteAcc')
+
+    def EditProfile(self):
+        print('EditProfile')
+
+    def SeeRefferals(self):
+        print('SeeRefferals')
+
+    def CheckAll(self):
+        print('CheckAll')
+
+    def Withdrawal(self):
+        print('Withdrawal')
+
+    def Deposit(self):
+        print('Deposit')
+
+    def Transfer(self):
+        print('Transfer')
+
+    def CheckBal(self):
+        print('Balance')
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
