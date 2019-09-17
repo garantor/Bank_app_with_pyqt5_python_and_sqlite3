@@ -86,7 +86,7 @@ class Ui_WelcomePage(object):
     def Login(self):
         self.LoginWindow = QtWidgets.QMainWindow()
         self.ui = Ui_LoginWindow()
-        self.ui.setupUi(self.LoginWindow)
+        self.ui.beginLogin(self.LoginWindow)
         self.LoginWindow.show()
         WelcomePage.close()
 

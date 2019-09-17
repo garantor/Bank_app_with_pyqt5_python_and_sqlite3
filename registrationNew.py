@@ -160,7 +160,8 @@ class Ui_registrationPage(object):
            CONFIRM STR NOT NULL,
            PHONE CHAR(11) NOT NULL,
            SEX STR,
-           ADDRESS CHAR(50) NOT NULL);
+           ADDRESS CHAR(50) NOT NULL,
+           BAL REAL(200) );
            ''')
         self.insertdb()
 
@@ -198,9 +199,8 @@ class Ui_registrationPage(object):
     def login(self):
         self.LoginWindow = QtWidgets.QMainWindow()
         self.ui = Ui_LoginWindow()
-        self.ui.setupUi(self.LoginWindow)
+        self.ui.beginLogin(self.LoginWindow)
         self.LoginWindow.show()
-
 
 
 

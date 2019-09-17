@@ -7,9 +7,10 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QMessageBox
+from PyQt5.QtWidgets import QMessageBox, QApplication, QWidget, QInputDialog, QLineEdit
 
-class Ui_MainWindow(object):
+
+class Ui_MainWindow(QWidget):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(561, 505)
@@ -114,6 +115,9 @@ class Ui_MainWindow(object):
         self.pushButton_deleteAccount.clicked.connect(self.DeleteAcc)
         self.pushButton_logout.clicked.connect(self.Logout)
 
+    def CancleNow(self):
+        print('working')
+
 # Pop Messages
     def MessagesProfile(self, title, message):
         mssg = QMessageBox()
@@ -130,7 +134,8 @@ class Ui_MainWindow(object):
             quit()
 
     def Logout(self):
-        self.MessagesProfile('Quit', 'Will you like o quit?')
+        self.MessagesProfile('Quit', 'Will you like to quit?')
+        quit()
 
     def DeleteAcc(self):
         print('DeleteAcc')
@@ -145,16 +150,57 @@ class Ui_MainWindow(object):
         print('CheckAll')
 
     def Withdrawal(self):
-        print('Withdrawal')
+        from withdrawal import Ui_WithdrawalWindow
+
+        self.WithdrawalWindow = QtWidgets.QMainWindow()
+        self.ui = Ui_WithdrawalWindow()
+        self.ui.setupUi(self.WithdrawalWindow)
+        self.WithdrawalWindow.show()
 
     def Deposit(self):
-        print('Deposit')
-
+        from deposit import Ui_DepositWindow
+        self.DepositWindow = QtWidgets.QMainWindow()
+        self.ui = Ui_DepositWindow()
+        self.ui.setupUi(self.DepositWindow)
+        self.DepositWindow.show()
     def Transfer(self):
-        print('Transfer')
+        from Transfer import Ui_TransferWindow
+        self.TransferWindow = QtWidgets.QMainWindow()
+        self.ui = Ui_TransferWindow()
+        self.ui.setupUi(self.TransferWindow)
+        self.TransferWindow.show()
+
+
+    def Passwordmessage(self):
+        pmsg = QMessageBox()
+        pmsg.setIcon(QMessageBox.Information)
+        pmsg.setInformativeText('Please Enter Your Password?')
+        pmsg.show()
+        pmsg.exec_()
+
+    def initUI(self):
+        self.getText()
+
+
 
     def CheckBal(self):
-        print('Balance')
+        import sqlite3
+        conn = sqlite3.connect('BankNH.db')
+        cur = conn.cursor()
+        okPressed = QInputDialog.getText(self, "Check Bal", "Please Enter Your Password:", )
+        cur.execute("SELECT BAL FROM NEWBANK WHERE USERNAME = ? ", ([str(okPressed)]))
+        for d in okPressed:
+            print(d, )
+
+        print(okPressed)
+        datas = cur.fetchone()
+        print(datas)
+        if datas == okPressed:
+            print('worked')
+            # self.Passwordmessage()
+
+        else:
+            print('Invalid entry')
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate

@@ -8,7 +8,8 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-class Ui_WithdrawalWindow(object):
+
+class Ui_WithdrawalWindow(object,):
     def setupUi(self, WithdrawalWindow):
         WithdrawalWindow.setObjectName("WithdrawalWindow")
         WithdrawalWindow.resize(480, 368)
@@ -102,6 +103,41 @@ class Ui_WithdrawalWindow(object):
 
         self.retranslateUi(WithdrawalWindow)
         QtCore.QMetaObject.connectSlotsByName(WithdrawalWindow)
+        self.pushButton_withdrawalCancel.clicked.connect(self.WithdrawalCancle)
+        self.pushButton_withdrawlWithdrawbtn.clicked.connect(self.WithdrwalButton)
+
+    def getText(self):
+        from Qinputdialo import App
+        name = App.getText(App)
+        print(name)
+        # from PyQt5.QtWidgets import QInputDialog, QLineEdit
+        # text, okPressed = QInputDialog.getText(self, "Get text", "Your name:", QLineEdit.Normal, "")
+        # if okPressed and text != '':
+        #     print(text)
+
+    def WithdrwalButton(self):
+        print('Withdrawal button')
+        # import sqlite3
+        # self.getText()
+        #
+        # conn = sqlite3.connect("BankNH.db")
+        # okPressed = self.getText()
+        # with conn:
+        #     cur= conn.cursor()
+        #     cur.execute("SELECT BAL FROM NEWBANK WHERE PASSWORD =? ", ([okPressed,]))
+        #     data = cur.fetchall()
+        #     print(data)
+        #     print('WithdrwalButton')
+
+
+    def WithdrawalCancle(self):
+        from MainProfile import Ui_MainWindow
+        print('WithdrawalCancle')
+        self.MainWindow = QtWidgets.QMainWindow()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self.MainWindow)
+        self.MainWindow.show()
+
 
     def retranslateUi(self, WithdrawalWindow):
         _translate = QtCore.QCoreApplication.translate

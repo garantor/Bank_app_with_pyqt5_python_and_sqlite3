@@ -7,6 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from MainProfile import Ui_MainWindow
 
 class Ui_DepositWindow(object):
     def setupUi(self, DepositWindow):
@@ -73,6 +74,19 @@ class Ui_DepositWindow(object):
 
         self.retranslateUi(DepositWindow)
         QtCore.QMetaObject.connectSlotsByName(DepositWindow)
+        self.pushButton_deposit_cancle.clicked.connect(self.DepositCancled)
+        self.pushButton_deposit_transfer.clicked.connect(self.TransferDeposit)
+
+    def TransferDeposit(self):
+        print('TransferDeposit')
+
+    def DepositCancled(self):
+        print('DepositCancled')
+        self.MainWindow = QtWidgets.QMainWindow()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self.MainWindow)
+        self.MainWindow.show()
+
 
     def retranslateUi(self, DepositWindow):
         _translate = QtCore.QCoreApplication.translate

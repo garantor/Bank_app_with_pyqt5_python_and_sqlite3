@@ -11,7 +11,7 @@ from MainProfile import Ui_MainWindow
 from PyQt5.QtWidgets import QMessageBox
 
 class Ui_LoginWindow(object):
-    def setupUi(self, LoginWindow):
+    def beginLogin(self, LoginWindow):
         LoginWindow.setObjectName("LoginWindow")
         LoginWindow.resize(453, 466)
         LoginWindow.setStyleSheet("background-color: rgb(12, 31, 45);\n"
@@ -95,6 +95,7 @@ class Ui_LoginWindow(object):
         self.MainWindow.show()
 
 
+
     def loginLogin(self):
         import sqlite3
         dbb = sqlite3.connect('BankNH.db')
@@ -108,7 +109,7 @@ class Ui_LoginWindow(object):
         if result:
             self.profile()
         else:
-            self.general_message('User Error', 'User not Exist')
+            self.general_message('User Error', 'User does not Exist')
 
     def reg(self):
         from registrationNew import Ui_registrationPage
@@ -132,7 +133,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     LoginWindow = QtWidgets.QMainWindow()
     ui = Ui_LoginWindow()
-    ui.setupUi(LoginWindow)
+    ui.beginLogin(LoginWindow)
     LoginWindow.show()
     sys.exit(app.exec_())
 

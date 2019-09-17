@@ -7,7 +7,8 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from PyQt5.QtWidgets import QMessageBox
+from MainProfile import Ui_MainWindow
 class Ui_TransferWindow(object):
     def setupUi(self, TransferWindow):
         TransferWindow.setObjectName("TransferWindow")
@@ -110,6 +111,44 @@ class Ui_TransferWindow(object):
 
         self.retranslateUi(TransferWindow)
         QtCore.QMetaObject.connectSlotsByName(TransferWindow)
+        self.pushButton_transferCancle.clicked.connect(self.CancleTxf)
+
+    def message(self, title, message):
+        mssg = QMessageBox()
+        mssg.setWindowTitle(title)
+        mssg.setIcon(QMessageBox.Warning)
+        mssg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        mssg.setText(message)
+        mssg.exec_()
+
+    def SendTransfer(self):
+        import sqlite3
+        conn = sqlite3.connect("BankNH.db")
+        cur = conn.cursor()
+        cur.execute("SELECT FIRSTNAME FROM NEWBANK")
+        table = cur.fetchall()
+        print(table)
+        amount = self.lineEdit_amount2txf.text()
+        amount2send = int(amount)
+        name2send = self.lineEdit_name2txf.text()
+        number2send = self.lineEdit_account2txf.text()
+        if amount2send != '':
+            print('amount worked')
+            if table:
+                self.message('error sending', 'Please Check the name you are sending to')
+            else:
+                print('working')
+                if number2send != '':
+                    print('Number fine')
+        else:
+            print('Transfer send')
+
+    def CancleTxf(self):
+        self.MainWindow = QtWidgets.QMainWindow()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self.MainWindow)
+        self.MainWindow.show()
+
 
     def retranslateUi(self, TransferWindow):
         _translate = QtCore.QCoreApplication.translate
