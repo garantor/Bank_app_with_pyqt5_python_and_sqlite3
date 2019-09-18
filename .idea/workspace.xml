@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5d8ee91-ee33-4f5b-8eac-86a2b732c158" name="Default Changelist" comment="Button connected, and Log out Window and pop up messages connected too.">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankNH.db" beforeDir="false" afterPath="$PROJECT_DIR$/BankNH.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainProfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainProfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transfer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transfer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deposit.py" beforeDir="false" afterPath="$PROJECT_DIR$/deposit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwelcom.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainwelcom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registrationNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/registrationNew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withdrawal.py" beforeDir="false" afterPath="$PROJECT_DIR$/withdrawal.py" afterDir="false" />
-    </list>
+    <list default="true" id="e5d8ee91-ee33-4f5b-8eac-86a2b732c158" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568235296678</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Button connected, and Log out Window and pop up messages connected too.">
+      <created>1568761309326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568761309364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
