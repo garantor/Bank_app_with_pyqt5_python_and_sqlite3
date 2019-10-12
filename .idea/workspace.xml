@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5d8ee91-ee33-4f5b-8eac-86a2b732c158" name="Default Changelist" comment="" />
+    <list default="true" id="e5d8ee91-ee33-4f5b-8eac-86a2b732c158" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Gpython.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/dataClass1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CBDP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/.idea/DjangoNH.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/Newhorizon/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/Newhorizon/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/Newhorizon/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/Newhorizon/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/migrations/0002_auto_20190913_1718.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/inventory/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DjangoNH/Newhorizon/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FeelUOwn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/.idea/MusicPro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/02 My life.wma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/HarrySong-Ft-Kiss-Daniel-Reekado-Bank-Selense.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/Helicopter_Leaving-Mike_Koenig-292006835.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/Mirror-feat.-Bruno-Mars_(9jachatbase.tk).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/MusicPlayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/musicimage2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/musicplayergui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPro/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scraping and Automation/Excel &amp; Web scraping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scraping and Automation/Share price list.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scraping and Automation/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scraping and Automation/vflscraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmc_api_with_pyqt5_and_Python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataClass1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inventory_management" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../merrybet .csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../musicplayer.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vfl/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vfl/.idea/vfl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vfl/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vfl/vfl_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vfl_starts_scrappe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankNH" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankNH.db" beforeDir="false" afterPath="$PROJECT_DIR$/BankNH.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainAll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainwelcom.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainwelcom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registrationNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/registrationNew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testnet.db" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +76,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mainwelcom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainAll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <folding>
+                <element signature="e#201#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,9 +126,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="436" />
-    <option name="y" value="47" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="435" />
+    <option name="y" value="45" />
     <option name="width" value="825" />
     <option name="height" value="605" />
   </component>
@@ -49,8 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -68,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainProfile">
+  <component name="RunManager" selected="Python.mainwelcom">
     <configuration name="MainProfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BankNH" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,27 +171,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainProfile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Qinputdialo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BankNH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qinputdialo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,6 +221,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mainwelcom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BankNH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mainwelcom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="withdrawal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BankNH" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mainwelcom" />
         <item itemvalue="Python.MainProfile" />
         <item itemvalue="Python.withdrawal" />
         <item itemvalue="Python.Transfer" />
         <item itemvalue="Python.deposit" />
-        <item itemvalue="Python.Qinputdialo" />
       </list>
     </recent_temporary>
   </component>
@@ -213,9 +302,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1107" height="590" extended-state="6" />
+    <frame x="348" y="36" width="660" height="484" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25210086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43269232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,25 +373,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/MainLogin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#198#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="e#201#243#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -344,19 +421,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainwelcom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Qinputdialo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainwelcom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#201#243#0" expanded="true" />
           </folding>
         </state>
       </provider>

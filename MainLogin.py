@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'new_login.ui'
-#
-# Created by: PyQt5 UI code generator 5.11.3
-#
-# WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from MainProfile import Ui_MainWindow
@@ -77,6 +70,11 @@ class Ui_LoginWindow(object):
 
         self.retranslateUi(LoginWindow)
         QtCore.QMetaObject.connectSlotsByName(LoginWindow)
+
+        ####################################################
+        #         Connecting welcome page button 
+        ####################################################
+
         self.pushButton_Login.clicked.connect(self.loginLogin)
         self.pushButton_Sign_up.clicked.connect(self.reg)
 
@@ -110,6 +108,7 @@ class Ui_LoginWindow(object):
             self.profile()
         else:
             self.general_message('User Error', 'User does not Exist')
+        
 
     def reg(self):
         from registrationNew import Ui_registrationPage
@@ -118,6 +117,8 @@ class Ui_LoginWindow(object):
         self.ui = Ui_registrationPage()
         self.ui.setupUi(self.registrationPage)
         self.registrationPage.show()
+        
+        
 
     def retranslateUi(self, LoginWindow):
         _translate = QtCore.QCoreApplication.translate

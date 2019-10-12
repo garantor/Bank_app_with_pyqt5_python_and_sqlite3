@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'regiatration_new.ui'
-#
-# Created by: PyQt5 UI code generator 5.11.3
-#
-# WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sqlite3
@@ -15,6 +10,7 @@ c = dbb.cursor()
 
 class Ui_registrationPage(object):
     def setupUi(self, registrationPage):
+        Ui_LoginWindow.close()
         registrationPage.setObjectName("registrationPage")
         registrationPage.resize(591, 486)
         registrationPage.setStyleSheet("background-color: rgb(12, 31, 45);\n"
