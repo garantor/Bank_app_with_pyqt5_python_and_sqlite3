@@ -27,7 +27,6 @@ def CreateDbb():
     ADDRESS CHAR(50) NOT NULL);
     ''')
 
-    print('TABLE CREATED SUCESSFFULLY')
 
 class Ui_WelcomePage(object):
     def setupUi(self, WelcomePage):
@@ -105,7 +104,7 @@ class Ui_WelcomePage(object):
     def retranslateUi(self, WelcomePage):
         _translate = QtCore.QCoreApplication.translate
         WelcomePage.setWindowTitle(_translate("WelcomePage", "Welcome Page"))
-        self.label.setText(_translate("WelcomePage", "WELCOME TO NEW HORIZON MFB"))
+        self.label.setText(_translate("WelcomePage", "WELCOME TO NEW Bank MFB"))
         self.label_2.setText(_translate("WelcomePage", "Do You Have An existing Account? "))
         self.pushButton_WELCOME_YES.setText(_translate("WelcomePage", "YES"))
         self.pushButton_WELCOME_NO.setText(_translate("WelcomePage", "NO"))
