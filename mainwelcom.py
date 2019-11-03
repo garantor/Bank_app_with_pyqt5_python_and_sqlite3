@@ -11,6 +11,12 @@ from MainLogin import Ui_LoginWindow
 from registrationNew import Ui_registrationPage
 import sqlite3
 
+
+#############################################
+## Connecting and creating Sqlit database ###
+##############################################
+
+
 dbb = sqlite3.connect('BankNH.db')
 
 def CreateDbb():
@@ -26,8 +32,9 @@ def CreateDbb():
     SEX STR,
     ADDRESS CHAR(50) NOT NULL);
     ''')
-
-
+#####################################
+##         GUI WELCOME PAGE       ##
+#####################################
 class Ui_WelcomePage(object):
     def setupUi(self, WelcomePage):
         WelcomePage.setObjectName("WelcomePage")
@@ -74,8 +81,9 @@ class Ui_WelcomePage(object):
 
         self.retranslateUi(WelcomePage)
         QtCore.QMetaObject.connectSlotsByName(WelcomePage)
+
         ###################################################
-        # Connecting buttons
+        ####               Connecting buttons          ####
         ###################################################
         self.pushButton_WELCOME_NO.clicked.connect(self.reg)
         self.pushButton_WELCOME_YES.clicked.connect(self.Login)
@@ -104,7 +112,7 @@ class Ui_WelcomePage(object):
     def retranslateUi(self, WelcomePage):
         _translate = QtCore.QCoreApplication.translate
         WelcomePage.setWindowTitle(_translate("WelcomePage", "Welcome Page"))
-        self.label.setText(_translate("WelcomePage", "WELCOME TO NEW Bank MFB"))
+        self.label.setText(_translate("WelcomePage", "WELCOME TO NEW BANK MFB"))
         self.label_2.setText(_translate("WelcomePage", "Do You Have An existing Account? "))
         self.pushButton_WELCOME_YES.setText(_translate("WelcomePage", "YES"))
         self.pushButton_WELCOME_NO.setText(_translate("WelcomePage", "NO"))
